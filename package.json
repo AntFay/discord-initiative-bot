@@ -1,0 +1,16 @@
+{
+  "name": "initiative-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for tracking initiative and other D&D utilities.",
+  "main": "bot.js",
+  "author": "tonyf",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

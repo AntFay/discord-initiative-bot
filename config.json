@@ -1,0 +1,5 @@
+{
+  "token": "[YOUR TOKEN HERE]",
+  "prefix": "$",
+  "message-delay": 3000
+}
