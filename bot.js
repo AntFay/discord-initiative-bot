@@ -119,7 +119,7 @@ client.on("message", (message) => {
       case 'remove':
         try {
           let unit = removeUnit(args[0]);
-          sendTempMessage("Removed " + unit.name + " from the initiative order.", channel);
+          sendTempMessage("Removed " + unit[0].name + " from the initiative order.", channel);
         } catch (e) {
           console.log(e);
           message.author.send(e);
