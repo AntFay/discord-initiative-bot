@@ -26,7 +26,7 @@ function addUnit(name, roll) {
 }
 
 function removeUnit(rank) {
-  if(rank1 === undefined || Number.isNaN(Number.parseInt(rank, 10))) throw 'An integer Rank is required.';
+  if(rank === undefined || Number.isNaN(Number.parseInt(rank, 10))) throw 'An integer Rank is required.';
   if(rank <= 0 || rank > initiative_table.length) throw 'Invalid unit specified. Rank out of bounds.';
 
   return initiative_table.splice(rank-1, 1);
@@ -119,7 +119,7 @@ client.on("message", (message) => {
       case 'remove':
         try {
           let unit = removeUnit(args[0]);
-          sendTempMessage("Removed " + unit.name + " from the initiative order.", channel);
+          sendTempMessage("Removed " + unit[0].name + " from the initiative order.", channel);
         } catch (e) {
           console.log(e);
           message.author.send(e);
