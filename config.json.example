@@ -1,0 +1,14 @@
+{
+  // *REQUIRED*
+  // Bot token. Must be copied from your bot's application page
+  // https://discordapp.com/developers/applications/
+  "token": "[YOUR TOKEN HERE]",
+
+  // *REQUIRED*
+  // Designated prefix must preface all commands
+  "prefix": "$",
+
+  // *REQUIRED*
+  // Delay before temporary messages are deleted. In milliseconds
+  "message-delay": 3000
+}
