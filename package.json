@@ -5,7 +5,7 @@
   "main": "bot.js",
   "author": "tonyf",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.4.0"
   },
   "devDependencies": {},
   "scripts": {
